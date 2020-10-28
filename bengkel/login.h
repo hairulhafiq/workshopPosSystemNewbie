@@ -29,7 +29,7 @@ public:
         bool connOpen()
         {
             csmsDB = QSqlDatabase::addDatabase("QSQLITE");
-            csmsDB.setDatabaseName("C:/Users/Hairul Hafiq/Documents/bengkel/Car");
+            csmsDB.setDatabaseName("D:/git/workshopPosSystemNewbie/bengkel/Car");
 
 
             if(!csmsDB.open()){
