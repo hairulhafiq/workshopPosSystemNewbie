@@ -6,7 +6,7 @@ ADOPTION::ADOPTION(QWidget *parent) :
     ui(new Ui::ADOPTION)
 {
     ui->setupUi(this);
-    QPixmap pix("D:/git/workshopPosSystemNewbie/src/Pic/mac_wallpaper.jpg");
+    QPixmap pix("D:/git/workshopPosSystemNewbie/Pic/mac_wallpaper.jpg");
     ui->labelbg->setPixmap(pix.scaled(311,411));
 }
 
