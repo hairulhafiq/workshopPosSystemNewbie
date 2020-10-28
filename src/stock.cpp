@@ -8,7 +8,7 @@ STOCK::STOCK(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QPixmap pix("C:/Users/Hairul Hafiq/Documents/Bengkel/Pic/mac_wallpaper.jpg");
+    QPixmap pix("D:/git/workshopPosSystemNewbie/Pic/mac_wallpaper.jpg");
     ui->labelBackground->setPixmap(pix.scaled(631,411));
 
         ui->comboBoxDay_2->addItem("1");

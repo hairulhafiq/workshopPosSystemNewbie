@@ -11,7 +11,7 @@ LOGIN::LOGIN(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QPixmap pix("C:/Users/Hairul Hafiq/Documents/Bengkel/Pic/BG-CarServiceSystem-02.jpg");
+    QPixmap pix("D:/git/workshopPosSystemNewbie/Pic/BG-CarServiceSystem-02.jpg");
     ui->background->setPixmap(pix.scaled(631,411));
 
     if(!connOpen())

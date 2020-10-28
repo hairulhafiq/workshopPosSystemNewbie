@@ -7,7 +7,7 @@ REGISTER::REGISTER(QWidget *parent) :
     ui(new Ui::REGISTER)
 {
     ui->setupUi(this);
-    QPixmap pix1("C:/Users/Hairul Hafiq/Documents/Bengkel/Pic/mac_wallpaper.jpg");
+    QPixmap pix1("D:/git/workshopPosSystemNewbie/Pic/mac_wallpaper.jpg");
     ui->labelBackground->setPixmap(pix1);
 
     ui->comboBox_2->addItem("0");

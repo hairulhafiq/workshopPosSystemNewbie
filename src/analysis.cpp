@@ -7,7 +7,7 @@ ANALYSIS::ANALYSIS(QWidget *parent) :
     ui(new Ui::ANALYSIS)
 {
     ui->setupUi(this);
-    QPixmap pix1("C:/Users/Hairul Hafiq/Documents/Workshop/Pic/mac_wallpaper.jpg");
+    QPixmap pix1("D:/git/workshopPosSystemNewbie/Pic/mac_wallpaper.jpg");
     ui->labelBackground->setPixmap(pix1);
 
     ui->comboBox->addItem("Count by...");

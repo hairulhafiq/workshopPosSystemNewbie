@@ -11,7 +11,7 @@ SALE::SALE(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QPixmap pix("C:/Users/Hairul Hafiq/Documents/Bengkel/Pic/mac_wallpaper.jpg");
+    QPixmap pix("D:/git/workshopPosSystemNewbie/Pic/mac_wallpaper.jpg");
     ui->labelbg->setPixmap(pix.scaled(960,632));
 
     QTime masa = QTime::currentTime();

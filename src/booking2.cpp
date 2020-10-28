@@ -7,7 +7,7 @@ BOOKING2::BOOKING2(QWidget *parent) :
     ui(new Ui::BOOKING2)
 {
     ui->setupUi(this);
-    QPixmap pix1("C:/Users/Hairul Hafiq/Documents/bengkel/Pic/Dark-Red-Abstract-Images-HD-Wallpaper-Desktop.jpg");
+    QPixmap pix1("D:/git/workshopPosSystemNewbie/Pic/Dark-Red-Abstract-Images-HD-Wallpaper-Desktop.jpg");
         ui->customerbackgroud->setPixmap(pix1);
     ui->setupUi(this);
     ui->comboBoxDay->addItem("1");
